@@ -64,18 +64,23 @@ class HomeController extends GetxController {
     _speech.stop();
   }
 
-  translateText(String text) async {
+  translateText(String textInput) async {
+    if (text.value == "") {
+      isListening.value = false;
+      isRecorded.value = false;
+      return;
+    }
+    isLoading.value = true;
     final translator = GoogleTranslator();
     Translation translation =
-        await translator.translate(text, from: 'en', to: 'ta');
+        await translator.translate(textInput, from: 'en', to: 'ta');
     await speakTranslatedText(translation.text);
   }
 
   Future<void> speakTranslatedText(String text) async {
     await flutterTts.setLanguage("ta-IN");
+    isLoading.value = false;
     await flutterTts.setPitch(1);
-    var data = await flutterTts.getVoices;
-    print(data);
     await flutterTts.speak(text);
   }
 
@@ -91,11 +96,13 @@ class HomeController extends GetxController {
         .pickFiles(type: FileType.audio, allowMultiple: false);
 
     if (result != null) {
+      isLoading.value = true;
       File file = File(result.files.single.path!);
       DeepgramSttResult res = await deepgram.transcribeFromFile(file);
       text.value = res.transcript;
       isListening.value = false;
       isRecorded.value = true;
+      isLoading.value = false;
     } else {
       // User canceled the picker
     }
