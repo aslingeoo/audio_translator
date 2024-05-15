@@ -1,0 +1,171 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mythings-app-live",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mythings-app-live (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mythings-app-live (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aws_s3_client",
+            "cwd": "extlib\\aws_s3_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dash_chat",
+            "cwd": "extlib\\dash_chat",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dash_chat (profile mode)",
+            "cwd": "extlib\\dash_chat",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dash_chat (release mode)",
+            "cwd": "extlib\\dash_chat",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "document_scanner_flutter",
+            "cwd": "extlib\\document_scanner_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "document_scanner_flutter (profile mode)",
+            "cwd": "extlib\\document_scanner_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "document_scanner_flutter (release mode)",
+            "cwd": "extlib\\document_scanner_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "edge_detection-1.1.3",
+            "cwd": "extlib\\edge_detection-1.1.3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "edge_detection-1.1.3 (profile mode)",
+            "cwd": "extlib\\edge_detection-1.1.3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "edge_detection-1.1.3 (release mode)",
+            "cwd": "extlib\\edge_detection-1.1.3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "edge_detection-1.1.3 - edited",
+            "cwd": "extlib\\edge_detection-1.1.3 - edited",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "edge_detection-1.1.3 - edited (profile mode)",
+            "cwd": "extlib\\edge_detection-1.1.3 - edited",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "edge_detection-1.1.3 - edited (release mode)",
+            "cwd": "extlib\\edge_detection-1.1.3 - edited",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_color_picker",
+            "cwd": "extlib\\flutter_color_picker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_color_picker (profile mode)",
+            "cwd": "extlib\\flutter_color_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_color_picker (release mode)",
+            "cwd": "extlib\\flutter_color_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "image_downloader",
+            "cwd": "extlib\\image_downloader",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "image_downloader (profile mode)",
+            "cwd": "extlib\\image_downloader",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "image_downloader (release mode)",
+            "cwd": "extlib\\image_downloader",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "open_filex-3.4.0",
+            "cwd": "extlib\\open_filex-3.4.0",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "open_filex-3.4.0 (profile mode)",
+            "cwd": "extlib\\open_filex-3.4.0",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "open_filex-3.4.0 (release mode)",
+            "cwd": "extlib\\open_filex-3.4.0",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
